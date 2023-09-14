@@ -12,8 +12,6 @@ import java.io.Serializable;
 @Setter
 @ToString
 @RequiredArgsConstructor
-@NoArgsConstructor
-@AllArgsConstructor
 @Entity
 public class CarModel implements Serializable {
     @Serial
@@ -35,7 +33,7 @@ public class CarModel implements Serializable {
     private String color;
 
     @Column(nullable = false, length = 15)
-    private String year;
+    private String fabricationYear;
 
     @Override
     public final boolean equals(Object o) {
