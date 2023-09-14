@@ -1,6 +1,6 @@
 package com.example.challenge.enums;
 
-public enum Brand {
+public enum BrandEnum {
     FORD("Ford"),
     CHEVROLET("Chevrolet"),
     BMW("BMW"),
@@ -8,7 +8,7 @@ public enum Brand {
 
     private final String description;
 
-    Brand(String description){
+    BrandEnum(String description){
         this.description = description;
     }
 
