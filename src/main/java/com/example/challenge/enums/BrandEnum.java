@@ -1,10 +1,10 @@
 package com.example.challenge.enums;
 
 public enum BrandEnum {
-    FORD("Ford"),
-    CHEVROLET("Chevrolet"),
+    Ford("Ford"),
+    Chevrolet("Chevrolet"),
     BMW("BMW"),
-    VOLVO("Volvo");
+    Volvo("Volvo");
 
     private final String description;
 

@@ -8,6 +8,8 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
+import java.util.Optional;
+
 @Service
 public class CarService {
     private final CarRepository carRepository;
@@ -23,6 +25,9 @@ public class CarService {
     }
     public Page<CarModel> findAll(Pageable pageable){
         return carRepository.findAll(pageable);
+    }
+    public Optional<CarModel> findById(Long id){
+        return carRepository.findById(id);
     }
 
 }
