@@ -15,12 +15,12 @@ starting point:
 
 # Database settings
 
-spring.datasource.url=jdbc:mysql://localhost:3306/db_car
-spring.datasource.username=root
-spring.datasource.password=root
-spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+* spring.datasource.url=jdbc:mysql://localhost:3306/db_car
+* spring.datasource.username=root
+* spring.datasource.password=root
+* spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+* spring.jpa.hibernate.ddl-auto=update
+* spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
 
 # Endpoints
 
