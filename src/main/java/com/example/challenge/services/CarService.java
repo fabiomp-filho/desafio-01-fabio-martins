@@ -23,11 +23,17 @@ public class CarService {
     public CarModel save(CarModel carModel){
         return carRepository.save(carModel);
     }
+
     public Page<CarModel> findAll(Pageable pageable){
         return carRepository.findAll(pageable);
     }
+
     public Optional<CarModel> findById(Long id){
         return carRepository.findById(id);
+    }
+    @Transactional
+    public void delete(CarModel carModel) {
+        carRepository.delete(carModel);
     }
 
 }

@@ -32,7 +32,8 @@ public class CarModel implements Serializable {
     @Column(nullable = false, length = 20)
     private String color;
 
-    @Column(nullable = false, length = 15)
+
+    @Column(nullable = false, length = 9)
     private String fabricationYear;
 
     @Override
